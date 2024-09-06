@@ -4,7 +4,7 @@ metadata:
   name: node-viewer
 rules:
 - apiGroups: [""]
-  resources: ["*"]  # This includes all resources in the core API group ("")
+  resources: ["*"]  # This includes all resources in the core API group ("").
   verbs: ["get", "list", "watch"]
 - apiGroups: [""]
   resources: ["nodes"]  # Explicitly includes Nodes
