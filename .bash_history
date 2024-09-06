@@ -46,6 +46,7 @@ cat nginx-service.yaml
 kubectl get service -o wide
 curl 10.100.127.65
 curl 10.100.127.65:3000
+<<<<<<< HEAD
 clear
 kubectl get svc
 kubectl get nodes -o wide
@@ -233,3 +234,5 @@ sudo vim nginx-apache-role.yaml
 kubectl apply -f nginx-apache-role.yaml 
 sudo vim nginx-apache-role.yaml 
 kubectl apply -f nginx-apache-role.yaml 
+=======
+>>>>>>> 003dd199f054c83b77f3098bd486a16143577eb0
